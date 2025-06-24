@@ -31,17 +31,26 @@ Une session __Kali Linux__ en Live boot consiste à utilisé Kali Linux depuis u
 2. Téléchargez l'ISO du milieu
 3. Rendez-vous sur le site officiel de Rufus
 4. Descendez légèrement et téléchargez la version type portable
--__CETTE ÉTAPE ENTRAINERA LA SUPPRESSION DÉFINITIVE DU CONTENU DE VOTRE CLÉ USB, SOYEZ SUR DE NE RIEN AVOIR D'IMPORTANT DESSUS AVANT DE CONTINUER !__ 
+- __CETTE ÉTAPE ENTRAINERA LA SUPPRESSION DÉFINITIVE DU CONTENU DE VOTRE CLÉ USB, SOYEZ SUR DE NE RIEN AVOIR D'IMPORTANT DESSUS AVANT DE CONTINUER !__ 
 5. Ouvrez Rufus, branchez votre clé usb sur votre ordinateur et complétez comme ceci: 
-`Péripherique: Votre Clé USB 
-Type de démarrage: Selection -> Cherchez votre ISO Kali Linux et mettez le 
-Schéma de partition: GPT
-Système de destination: UEFI (non CSM)
-Nom du volume: Clé Live Kali
-Système de fichiers: NTFS
-Taille d'unité d'allocation: Laissez par défaut
-Démarrez
-Oui à tout` 
+
+__Péripherique__: `Votre Clé USB` 
+
+__Type de démarrage__: `Selection` -> `Cherchez votre ISO Kali Linux et mettez le` 
+
+__Schéma de partition__: `GPT`
+
+__Système de destination__: `UEFI (non CSM)`
+
+__Nom du volume__: `Clé Live Kali`
+
+__Système de fichiers__: `NTFS`
+
+__Taille d'unité d'allocation__: `Laissez par défaut`
+
+`Démarrez`
+
+`Oui à tout`
 
 **INSTALLATION TERMINÉE**
 
@@ -53,8 +62,8 @@ Oui à tout`
 
 **VOUS ÊTES SUR VÔTRE SESSION LIVE KALI**
 
-### Pétites aides pour facilité vos utilisation 
+## Pétites aides pour facilité vos utilisation 
 
-À partir de votre terminal, vous pouvez mettre votre clavier en azerty en entrant `setxkbmap fr` 
+À partir de votre terminal, vous pouvez mettre votre clavier en azerty en entrant ```setxkbmap fr``` 
 
 Si votre session se vérrouille pour inactivité, le mot de passe est `kali`
