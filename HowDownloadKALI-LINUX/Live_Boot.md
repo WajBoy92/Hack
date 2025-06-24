@@ -33,7 +33,7 @@ Une session __Kali Linux__ en Live boot consiste à utilisé Kali Linux depuis u
 4. Descendez légèrement et téléchargez la version type portable
 -__CETTE ÉTAPE ENTRAINERA LA SUPPRESSION DÉFINITIVE DU CONTENU DE VOTRE CLÉ USB, SOYEZ SUR DE NE RIEN AVOIR D'IMPORTANT DESSUS AVANT DE CONTINUER !__ 
 5. Ouvrez Rufus, branchez votre clé usb sur votre ordinateur et complétez comme ceci: 
-``` Péripherique: Votre Clé USB 
+`Péripherique: Votre Clé USB 
 Type de démarrage: Selection -> Cherchez votre ISO Kali Linux et mettez le 
 Schéma de partition: GPT
 Système de destination: UEFI (non CSM)
@@ -41,7 +41,7 @@ Nom du volume: Clé Live Kali
 Système de fichiers: NTFS
 Taille d'unité d'allocation: Laissez par défaut
 Démarrez
-Oui a tout ```
+Oui à tout` 
 
 **INSTALLATION TERMINÉE**
 
