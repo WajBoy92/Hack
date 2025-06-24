@@ -123,8 +123,14 @@
   __# Avant une ligne__ : Fait en sorte qu'une ligne soit un TITRE ( très gros ) un sous titre (##) ou alors un début de paragraphe (###), plus il y a de # et moins la ligne sera imposante (ces spécificité marche seulement sur des fichier.md)
   
   `__TEXTE__`: Les tirets du bas entre un texte le mettent en gras
+  
+   __- Avant une ligne__: Met une puce avant une lettre 
+
+ ` Autour d'une ligne:  désactive la stylisation du code. Si on en met 3 autour d'une ligne on peut spécifié qu'elle sylisation de code nous voulons
+
  
-  ## AUTRES
+ 
+ ## AUTRES
   __sudo__: SuperUserDO permet de dire au terminal qu'on a les permission pour effectuer notre commande ( mkdir test: Permission Denied | sudo mkdir test: OK ) 
   
   __sudo su__: Le terminal considèrera qu'on a les droits jusqu'à la fermeture de celui-ci ou si on quitte le mode avec " exit " ( mode root )
