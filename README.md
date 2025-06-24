@@ -104,15 +104,25 @@
 
 
   ## GitHub
-  __Git status__: Révèles si les modifications ont été monté dans GitHub
+  __Git status__: Révèles si des modifications ont été faites et si il faut les monter ou non 
   
   __Git add Nom_Du_Dossier/Fichier__: Monter un Dossier/Fichier sur GitHub
   
   __Git commit -m "BLABLABLA"__: Fais un commentaire qui sera publié en même temps que les modifications
   
-  __Git push__: Met à jour le profil GitHub en y mettant en ligne les choses qu'on a monté
+  __Git push__: Met les modification qu'on a réalisé à partir du terminal sur GitHub
+
+  __git pull__: Met les modification qu'on a réalisé à partir de GitHub sur le terminal
+
+  __git stash__: Met dans une corbeille se qu'on a modifié dans notre terminale mais cela peut être recupéré avec git stashpop
+
+  __git stashpop__: Récupère les choses qui sont dans la corbeille GitHub
   
   __Git clone https://..__: Clone sur votre ordinateur un Dossier/Fichier/Code/Logiciel qui était sur GitHub
+
+  __# Avant une ligne__ : Fait en sorte qu'une ligne soit un TITRE ( très gros ) un sous titre (##) ou alors un début de paragraphe (###), plus il y a de # et moins la ligne sera imposante (ces spécificité marche seulement sur des fichier.md)
+  
+  `__TEXTE__`: Les tirets du bas entre un texte le mettent en gras
  
   ## AUTRES
   __sudo__: SuperUserDO permet de dire au terminal qu'on a les permission pour effectuer notre commande ( mkdir test: Permission Denied | sudo mkdir test: OK ) 
