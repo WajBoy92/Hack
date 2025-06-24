@@ -1,5 +1,4 @@
-fdvdf 
-                            À FAIRE TOUTE LES SEMAINES
+                                 À FAIRE TOUTE LES SEMAINES
   sudo apt update && sudo apt upgrade -> Met à jour la liste des paquets puis install les mises à jour 
   
   -----OUTILS DE HACKING-----
@@ -14,7 +13,10 @@ fdvdf
   exiftool: Analyse une image pour y donner les métadonnés
   wireshark: Puissant pour intercépeter des choses sur un WIFI
   zsteg: Analyse une image et permet d'y donner les messages cachés  
+  aircrack-ng: Analyse le trafic Wi-Fi, force la déconnexion des appareils, BruteForce le mdp Wi-Fi 
   chrootkit: Auto-Analyse son pc pour voir s'il y a des logiciel malveillant en cours
+  nikto: Analyse un site, teste automatiquement des dizaines de milliers d'attaque pour nous dire qu'elles sont ses vulnérabilité
+  
 
   -----NAVIGATION-----
   cd: Se déplace dans un dossier 
@@ -64,6 +66,8 @@ fdvdf
   chmod: Ajoute ou enlève des droits sur un fichier/dossier, exemple le droit de lecture/écriture/execution (chmod 777 donnes un accès complet au fichier/dossier )
   mv fichier.txt /Dossier/HEY: Déplace le fichier.txt dans /Dossier/HEY
   mv X Y: Renomme le dossier X par Y
+  cp fichier.txt /Dossier/HEY: Déplace le fichier.txt dans /Dossier/HEY
+  cp X Y: Copie le fichier X sous le nom de Y ( on a 2x le même fichier )
   systemctl: Gère les systèmes 
   systemctl enable ssh: Active le port 22 (SSH) 
   systemctl start ssh: Met en route le port 22 (SSH)
@@ -73,6 +77,9 @@ fdvdf
   passwd NOM_D'UTILISATEUR: Modifie le mot de passe de l'utilisateur local 
   man NOM_DE_L'OUTILS ou NOM_DE_L'OUTILS -h : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
   Ctrl+Z: Arrête une commande
-  #setxkbmap fr: Met le clavier en AZERTY
+  setxkbmap fr: Met le clavier en AZERTY
+  shutdown: Éteint l'ordinateur dans un délai de 1min ( s'annule avec shutdown -c )
+  shutdown now: Éteint l'ordinateur 
+  reboot: Redémarre l'ordinateur 
   usermod -aG GROUPE UTILISATEUR: Ajoute un utilisateur dans un groupe  
   # SUIVIS D'UN TEXTE: Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
