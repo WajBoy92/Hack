@@ -102,27 +102,25 @@
 ## GitHub
   `Git status` : Voir l'état du repo 
 
-  `Git add .` ou `Git add Fichier` : Monter un Dossier/Fichier sur GitHub
+  `Git add .` ou `Git add Fichier` : Ajoute des Dossier ou Fichier
 
-  `Git commit -m "BLABLABLA"` : Fais un commentaire qui sera publié en même temps que les modifications
+  `Git commit -m "BLABLABLA"` : Valide en laissant un commentaire
 
   `Git push` : Met les modification qu'on a réalisé à partir du terminal sur GitHub
 
   `git pull` : Met les modification qu'on a réalisé à partir de GitHub sur le terminal
 
-  `git stash` : Met dans une corbeille se qu'on a modifié dans notre terminale mais cela peut être recupéré avec `git stashpop`
+  `git stash`/`git stashpop` : Sauvegarder/restaurer des changements temporaires 
 
   `git stashpop` : Récupère les choses qui sont dans la corbeille GitHub
 
-  `Git clone https://..` : Clone sur votre ordinateur un Dossier/Fichier/Code/Logiciel qui était sur GitHub
+  `Git clone URL` : Clone un dépôt
 
-  `# Avant une ligne` : Fait en sorte qu'une ligne soit un TITRE ( très gros ) un sous titre (##) ou alors un début de paragraphe (###), plus il y a de # et moins la ligne sera imposante (ces spécificité marche seulement sur des fichier.md)
-
-  `__TEXTE__` : Les tirets du bas entre un texte le mettent en gras
-
-  `- Avant une ligne` : Met une puce avant une lettre 
-
-  ` Autour d'une ligne:  désactive la stylisation du code. Si on en met 3 autour d'une ligne on peut spécifié qu'elle sylisation de code nous voulons
+**Astuce Markdown :**
+- `#` TITRE, `##` sous-titre, etc.
+- `__texte__` : gras
+- `-` : puce
+- `` `code` `` : style code
 
 
 ## AUTRES
