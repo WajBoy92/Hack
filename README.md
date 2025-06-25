@@ -22,7 +22,7 @@
   
   __exiftool__: Analyse une image pour y donner les métadonnés
   
-  __wireshark__: Puissant pour intercépeter des choses sur un WIFI
+  __wireshark__: Puissant pour intercépeter des choses sur un Wi-Fi
   
   __zsteg__: Analyse une image et permet d'y donner les messages cachés  
   
