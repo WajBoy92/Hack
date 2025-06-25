@@ -4,15 +4,15 @@
   sudo apt update && sudo apt upgrade -> Met à jour la liste des paquets puis install les mises à jour 
   
   ## OUTILS DE HACKING
-  __hydra__: BruteForce par plusieurs moyen grâce à des wordlists __[HowUseHydra PROCHAINEMENT DISPONIBLE]__
+  __hydra__: BruteForce plusieurs système en ligne grâce à des wordlists _[ HowUseHydra à venir ]_
   
-  __nmap__: Scanne une multitude de choses (-sS permet de faire des scans furtif/Presque indétectable) 
+  __nmap__: Scanne une multitude de choses  
   
-  __chntpw__: Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres __[HowUseCHNTPW PROCHAINEMENT DISPONIBLE]__
+  __chntpw__: Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres _[ HowUseCHNTPW à venir ]_
   
-  __mimikatze__: Récupère des mots de passe local en clair ou hashé ( souvent hashé )
+  __mimikatze__: Récupère des mots de passe local en clair ou hashé ( **souvent hashé** )
   
-  __JohnTheRipper__ ou __john__: Casse des hash en BruteForce __[HowUseJohnTheRipper PROCHAINEMENT DISPONIBLE]__
+  __JohnTheRipper__ ou __john__: Casse des hash en BruteForce _[ HowUseJohnTheRipper à venir ]_
   
   __crunch__: Crée des wordlist personnalisable en fonction de nos besoins  
   
