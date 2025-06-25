@@ -13,7 +13,7 @@ Seuls les outils qui seront la dedans seront susceptible d'être expliqué dans 
 À la fin de chaque ligne expliquant le fonctionnement d'un outil, il y aura soit écrit:
 
 - `[HowUse.. DISPONIBLE]`: Alors vous pouvez lire le fichier qui explique comment utiliser la commande en question 
-- `[HowUse.. PROCHAINEMENT DISPONIBLE]`: Le fichier expliquant comment utiliser l'outils arrivera prochainement et il est surement en cours de rédaction, d'ici maximum 2 semaine il sera dans HowUse 
+- `[HowUse.. à venir]`: Le fichier expliquant comment utiliser l'outils arrivera prochainement et il est surement en cours de rédaction, d'ici maximum 2 semaine il sera dans HowUse 
 - __Rien d'écrit__: L'outil ne sera pas dans HowUse avant un bon moment
 
 # 
