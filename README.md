@@ -82,101 +82,100 @@
   
   `find`: Trouve l'emplacement d'un fichier/Dossier sans être directement dans le bon dossier ( find . -name NomDuFichier/Dossier )
   
-  __find . -name *.txt__: Recherche tout les fichier .txt à partir de la racine de l'OS 
-  
-  __df -h__: Voir l’espace disque
-  
-  __free -h__: Voir l’utilisation de la RAM
-  
-  __whoami__: Montre qui nous sommes actuellment dans le terminal 
-  
-  __ip a__: Donnes l'adresse IP de la machine qui utilise le terminal 
-  
-  __ping SITE_WEB__: Envoie un ping à un site puis attends de recevoir un "pong", si ça marche alors la machine à accès a internet ( exemple: ping google.fr ) 
-  
-  __wc NOM_DU_FICHIER__: Compte le nombre de mots que contient le fichier 
-  
-  __wc -l NOM_DU_FICHIER__: Compte le nombre de lignes que contient le fichier 
+  `find . -name *.txt` : Recherche tout les fichier .txt à partir de la racine de l'OS 
+
+  `df -h` : Voir l’espace disque
+
+  `free -h` : Voir l’utilisation de la RAM
+
+  `whoami` : Montre qui nous sommes actuellment dans le terminal 
+
+  `ip a` : Donnes l'adresse IP de la machine qui utilise le terminal 
+
+  `ping SITE_WEB` : Envoie un ping à un site puis attends de recevoir un "pong", si ça marche alors la machine à accès a internet ( exemple: ping google.fr ) 
+
+  `wc NOM_DU_FICHIER` : Compte le nombre de mots que contient le fichier 
+
+  `wc -l NOM_DU_FICHIER` : Compte le nombre de lignes que contient le fichier 
 
 
-  ## GitHub
-  __Git status__: Voir l'état du repo 
-  
-  `Git add .` ou Git add Fichier: Monter un Dossier/Fichier sur GitHub
-  
-  __Git commit -m "BLABLABLA"__: Fais un commentaire qui sera publié en même temps que les modifications
-  
-  __Git push__: Met les modification qu'on a réalisé à partir du terminal sur GitHub
+## GitHub
+  `Git status` : Voir l'état du repo 
 
-  __git pull__: Met les modification qu'on a réalisé à partir de GitHub sur le terminal
+  `Git add .` ou `Git add Fichier` : Monter un Dossier/Fichier sur GitHub
 
-  __git stash__: Met dans une corbeille se qu'on a modifié dans notre terminale mais cela peut être recupéré avec git stashpop
+  `Git commit -m "BLABLABLA"` : Fais un commentaire qui sera publié en même temps que les modifications
 
-  __git stashpop__: Récupère les choses qui sont dans la corbeille GitHub
-  
-  __Git clone https://..__: Clone sur votre ordinateur un Dossier/Fichier/Code/Logiciel qui était sur GitHub
+  `Git push` : Met les modification qu'on a réalisé à partir du terminal sur GitHub
 
-  __# Avant une ligne__ : Fait en sorte qu'une ligne soit un TITRE ( très gros ) un sous titre (##) ou alors un début de paragraphe (###), plus il y a de # et moins la ligne sera imposante (ces spécificité marche seulement sur des fichier.md)
-  
-  `__TEXTE__`: Les tirets du bas entre un texte le mettent en gras
-  
-   __- Avant une ligne__: Met une puce avant une lettre 
+  `git pull` : Met les modification qu'on a réalisé à partir de GitHub sur le terminal
 
- ` Autour d'une ligne:  désactive la stylisation du code. Si on en met 3 autour d'une ligne on peut spécifié qu'elle sylisation de code nous voulons
+  `git stash` : Met dans une corbeille se qu'on a modifié dans notre terminale mais cela peut être recupéré avec `git stashpop`
 
- 
- 
- ## AUTRES
-  __sudo__: SuperUserDO permet de dire au terminal qu'on a les permission pour effectuer notre commande ( mkdir test: Permission Denied | sudo mkdir test: OK ) 
-  
-  __sudo su__: Le terminal considèrera qu'on a les droits jusqu'à la fermeture de celui-ci ou si on quitte le mode avec " exit " ( mode root )
-  
-  __su - NOM D'UTILISATEUR__: Se connecte au terminal d'une autre session disponible sur l'OS en question 
-  
-  __COMMANDE1 &__: Lance la commande en arrière plan  
-  
-  __COMMANDE1 && COMMANDE2__: Execute la commande 2 si la commande 1 à fonctionnée
-  
-  __chmod__: Ajoute ou enlève des droits sur un fichier/dossier, exemple le droit de lecture/écriture/execution (chmod 777 donnes un accès complet au fichier/dossier )
-  
-  __mv fichier.txt /Dossier/HEY__: Déplace le fichier.txt dans /Dossier/HEY
-  
-  __mv X Y__: Renomme le dossier X par Y
-  
-  __cp fichier.txt /Dossier/HEY__: Déplace le fichier.txt dans /Dossier/HEY
-  
-  __cp X Y__: Copie le fichier X sous le nom de Y ( on a 2x le même fichier )
-  
-  __systemctl__: Gère les systèmes 
-  
-  __systemctl enable ssh__: Active le port 22 (SSH) 
-  
-  __systemctl start ssh__: Met en route le port 22 (SSH)
-  
-  __systemctl status ssh__: Regarde si le ssh est actif ou non 
-  
-  __ssh IP____DE____L'UTILISATEUR__ ou __ssh__ __Nom____D'UTILISATEUR@IP____DE____L'UTILISATEUR__: Se connecte en ssh à une session en route à distance à condition d'avoir le mot de passe
-  
-  __passwd__: Modifie le mot de passe de la session actuelle
-  
-  __passwd__ __NOM____D'UTILISATEUR__: Modifie le mot de passe de l'utilisateur local 
-  
-  __man__ __NOM____DE____L'OUTILS__ ou __NOM____DE____L'OUTILS__ __-h__ : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
-  
-  __Ctrl+Z__: Arrête une commande
-  
-  __setxkbmap fr__: Met le clavier en AZERTY
-  
-  __shutdown__: Éteint l'ordinateur dans un délai de 1min ( s'annule avec shutdown -c )
-  
-  __shutdown now__: Éteint l'ordinateur 
-  
-  __reboot__: Redémarre l'ordinateur 
-  
-  __usermod -aG GROUPE UTILISATEUR__: Ajoute un utilisateur dans un groupe  
-  
-  __while true; do `[COMMANDE]`; done__: Répète la `COMMANDE` en boucle à l'infini extrèmement rapidement **ATTENTION VOTRE TERMINAL PEUT SATURÉ SELON LA COMMANDE**
-  
-  __while true; do `[COMMANDE]`; sleep1; done__: Répète la `COMMANDE` en boucle à l'infini mais sleep permet de dire un nombre de seconde entre chaque lancera, `sleep1 = 1 seconde`
+  `git stashpop` : Récupère les choses qui sont dans la corbeille GitHub
 
-__# SUIVIS D'UN TEXTE__: Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
+  `Git clone https://..` : Clone sur votre ordinateur un Dossier/Fichier/Code/Logiciel qui était sur GitHub
+
+  `# Avant une ligne` : Fait en sorte qu'une ligne soit un TITRE ( très gros ) un sous titre (##) ou alors un début de paragraphe (###), plus il y a de # et moins la ligne sera imposante (ces spécificité marche seulement sur des fichier.md)
+
+  `__TEXTE__` : Les tirets du bas entre un texte le mettent en gras
+
+  `- Avant une ligne` : Met une puce avant une lettre 
+
+  ` Autour d'une ligne:  désactive la stylisation du code. Si on en met 3 autour d'une ligne on peut spécifié qu'elle sylisation de code nous voulons
+
+
+## AUTRES
+  `sudo` : SuperUserDO permet de dire au terminal qu'on a les permission pour effectuer notre commande ( mkdir test: Permission Denied | sudo mkdir test: OK ) 
+
+  `sudo su` : Le terminal considèrera qu'on a les droits jusqu'à la fermeture de celui-ci ou si on quitte le mode avec " exit " ( mode root )
+
+  `su - NOM D'UTILISATEUR` : Se connecte au terminal d'une autre session disponible sur l'OS en question 
+
+  `COMMANDE1 &` : Lance la commande en arrière plan  
+
+  `COMMANDE1 && COMMANDE2` : Execute la commande 2 si la commande 1 à fonctionnée
+
+  `chmod` : Ajoute ou enlève des droits sur un fichier/dossier, exemple le droit de lecture/écriture/execution (`chmod 777` donnes un accès complet au fichier/dossier )
+
+  `mv fichier.txt /Dossier/HEY` : Déplace le fichier.txt dans /Dossier/HEY
+
+  `mv X Y` : Renomme le dossier X par Y
+
+  `cp fichier.txt /Dossier/HEY` : Déplace le fichier.txt dans /Dossier/HEY
+
+  `cp X Y` : Copie le fichier X sous le nom de Y ( on a 2x le même fichier )
+
+  `systemctl` : Gère les systèmes 
+
+  `systemctl enable ssh` : Active le port 22 (SSH) 
+
+  `systemctl start ssh` : Met en route le port 22 (SSH)
+
+  `systemctl status ssh` : Regarde si le ssh est actif ou non 
+
+  `ssh IP_DE_L'UTILISATEUR` ou `ssh Nom_D'UTILISATEUR@IP_DE_L'UTILISATEUR` : Se connecte en ssh à une session en route à distance à condition d'avoir le mot de passe
+
+  `passwd` : Modifie le mot de passe de la session actuelle
+
+  `passwd NOM_D'UTILISATEUR` : Modifie le mot de passe de l'utilisateur local 
+
+  `man NOM_DE_L'OUTILS` ou `NOM_DE_L'OUTILS -h` : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
+
+  `Ctrl+Z` : Arrête une commande
+
+  `setxkbmap fr` : Met le clavier en AZERTY
+
+  `shutdown` : Éteint l'ordinateur dans un délai de 1min ( s'annule avec `shutdown -c` )
+
+  `shutdown now` : Éteint l'ordinateur 
+
+  `reboot` : Redémarre l'ordinateur 
+
+  `usermod -aG GROUPE UTILISATEUR` : Ajoute un utilisateur dans un groupe  
+
+  `while true; do [COMMANDE]; done` : Répète la `COMMANDE` en boucle à l'infini extrèmement rapidement **ATTENTION VOTRE TERMINAL PEUT SATURÉ SELON LA COMMANDE**
+
+  `while true; do [COMMANDE]; sleep1; done` : Répète la `COMMANDE` en boucle à l'infini mais sleep permet de dire un nombre de seconde entre chaque lancera, `sleep1 = 1 seconde`
+
+  `# SUIVIS D'UN TEXTE` : Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
