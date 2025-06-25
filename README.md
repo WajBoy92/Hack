@@ -4,87 +4,83 @@
   sudo apt update && sudo apt upgrade -> Met à jour la liste des paquets puis install les mises à jour 
   
   ## OUTILS DE HACKING
-  __hydra__: BruteForce plusieurs système en ligne grâce à des wordlists _[ HowUseHydra à venir ]_
+  __hydra__ : BruteForce plusieurs système en ligne grâce à des wordlists _[ HowUseHydra à venir ]_
   
-  __nmap__: Scanne une multitude de choses  
+  __nmap__ : Scanne une multitude de choses  
   
-  __chntpw__: Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres _[ HowUseCHNTPW à venir ]_
+  __chntpw__ : Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres _[ HowUseCHNTPW à venir ]_
   
-  __mimikatze__: Récupère des mots de passe local en clair ou hashé ( **souvent hashé** )
+  __mimikatze__ : Récupère des mots de passe local en clair ou hashé ( **souvent hashé** )
   
-  __JohnTheRipper__ ou __john__: Casse des hash en BruteForce _[ HowUseJohnTheRipper à venir ]_
+  __JohnTheRipper__ ou __john__ : Casse des hash en BruteForce _[ HowUseJohnTheRipper à venir ]_
   
-  __crunch__: Crée des wordlist personnalisable en fonction de nos besoins  
+  __crunch__ : Crée des wordlist personnalisable en fonction de nos besoins  
   
-  __7-zip__: N'est pas un outils de hacking mais cette applications peut permettre d'envoyer des virus dans des zip sécurisés avec eds mots de passe par exemple sur discord 
+  __7-zip__ : N'est pas un outils de hacking mais cette applications peut permettre d'envoyer des virus dans des zip sécurisés avec eds mots de passe par exemple sur discord 
   
-  __wordlists__ ou __rockyou.txt__: Wordlist par défaut de Kali Linux
+  __wordlists__ ou __rockyou.txt__ : Wordlist par défaut de Kali Linux
   
-  __exiftool__: Analyse une image pour y donner les métadonnés
+  __exiftool__ : Analyse une image pour y donner les métadonnés
   
-  __wireshark__: Puissant pour intercépeter des choses sur un Wi-Fi
+  __wireshark__ : Puissant pour intercépeter des choses sur un Wi-Fi
   
-  __zsteg__: Analyse une image et permet d'y donner les messages cachés  
+  __zsteg__ : Analyse une image et permet d'y donner les messages cachés  
   
-  __aircrack-ng__: Analyse le trafic Wi-Fi, force la déconnexion des appareils, BruteForce le mdp Wi-Fi 
+  __aircrack-ng__ : Analyse le trafic Wi-Fi, force la déconnexion des appareils, BruteForce le mdp Wi-Fi 
   
-  __chrootkit__: Auto-Analyse son pc pour voir s'il y a des logiciel malveillant en cours
+  __chrootkit__ : Auto-Analyse son pc pour voir s'il y a des logiciel malveillant en cours
   
-  __nikto__: Analyse un site, teste automatiquement des dizaines de milliers d'attaque pour nous dire qu'elles sont ses vulnérabilités
+  __nikto__ : Analyse un site, teste automatiquement des dizaines de milliers d'attaque pour nous dire qu'elles sont ses vulnérabilités
 
   
   ## NAVIGATION
-  __cd__ : Se déplace dans un dossier
+  `cd <dossier>` : Se déplace dans un dossier
   
-  __cd ..__ : Revient d'un dossier
+  `cd ..` : Revient d'un dossier
   
-  __cd__ ../.. : Revient de 2 dossier
+  `cd ../..` : Revient de 2 dossier
   
-  __cd/__ : Revient à la racine de l'OS
+  `cd/` : Revient à la racine du système
 
-  __cd~__ : Revient à la racine de la session actuelle
+  `cd ~` : Revient à la racine de la session actuelle
   
-  __ssh IP_DE_L'UTILISATEUR__ ou __ssh Nom_D'UTILISATEUR@IP_DE_L'UTILISATEUR__ : Se connecte en ssh à une session en route à condition d'avoir le mot de passe
+  `ssh <IP>` ou `ssh <UTILISATEUR@IP>` : Se connecte en ssh à une session en route à condition d'avoir le mot de passe
   
-  __su - NOM D'UTILISATEUR__: Se connecte au terminal d'une autre session disponible sur l'OS en question
+  `su - <UTILISATEUR>`: Se connecte au terminal d'une autre session disponible sur l'OS en question
   
   ## CRÉATION
-  __mkdir NomDuDossier__: Crée un dossier
+  `mkdir <NomDossier>` : Crée un dossier
 
-  __rm NomDuFichier__: Supprime le fichier
+  `rm <NomFichier>` : Supprime le fichier
   
-  __rm -r NomDeL'Élément__: Supprime l'élément
+  `rm -r NomDossier` : Supprime un dossier et son contenu 
   
-  __touch NomDuFichier__: Crée un fichier 
+  `touch NomDuFichier` : Crée un fichier 
   
-  __nano__: Crée un nouveau fichier puis permet d'écrire à l'intérieur, on modifie le nom du fichier en faisant Ctrl+O pour enregistrer le ficher sous.. et on quitte nano en fisant Ctrl+X 
+  `nano` : Crée un nouveau fichier puis permet d'écrire à l'intérieur, on modifie le nom du fichier en faisant Ctrl+O pour enregistrer le ficher sous.. et on quitte nano en fisant Ctrl+X 
   
-  __nano NomDuFichier__: Écrit à l'intérieur d'un fichier déjà existant 
+  `nano NomFichier` : Écrit à l'intérieur d'un fichier déjà existant 
   
-  __cp NOM_DU_FICHIER NOUVEAU_NOM__: Copie le fichier sous un autre nom  
+  `cp Fichier NouveauNom` : Copie le fichier sous un autre nom  
   
-  __zip -e__: Créer des dossiers zip avec mot de passe 
+  `zip -e` : Crée des dossiers zip avec mot de passe 
 
   ## ANALYSE
-  __ls__: Liste les éléments disponible 
+  - `ls` / `ls -l` / `ls -la` : Liste les fichiers (+ détails, + fichiers cachés)
+
+  `ls A*` : Liste les éléments qui commencent par "A"
   
-  __ls -l__: Liste + donne les détails ( date de création etc... ) 
+  `lsblk` : Liste les partition 
   
-  __ls -la__: Liste + détails + Éléments cachés
+  `fdisk -l` : Liste les partitions en donnant plus de détails 
   
-  __ls A*__: Liste les éléments qui commencent par A
+  `cat <Fichier>`: Lit le contenu d'un fichier
   
-  __lsblk__: Liste les partition 
+  `grep <MOT> <Fichier>`: Recherche un mot précis dans un fichier ( Pareil que Ctrl+F )
   
-  __fdisk -l__: Liste les partitions en donnant plus de détails 
+  `nano Ctrl+W`: Recherche des éléments dans le fichier comme grep
   
-  __cat__: Lit le contenu d'un fichier
-  
-  __grep__: Recherche quelque chose de précis dans un fichier ( Pareil que Ctrl+F )
-  
-  __nano Ctrl+W__: Recherche des éléments dans le fichier comme grep
-  
-  __find__: Trouve l'emplacement d'un fichier/Dossier sans être directement dans le bon dossier ( find . -name NomDuFichier/Dossier )
+  `find`: Trouve l'emplacement d'un fichier/Dossier sans être directement dans le bon dossier ( find . -name NomDuFichier/Dossier )
   
   __find . -name *.txt__: Recherche tout les fichier .txt à partir de la racine de l'OS 
   
@@ -104,9 +100,9 @@
 
 
   ## GitHub
-  __Git status__: Révèles si des modifications ont été faites et si il faut les monter ou non 
+  __Git status__: Voir l'état du repo 
   
-  __Git add Nom_Du_Dossier/Fichier__: Monter un Dossier/Fichier sur GitHub
+  `Git add .` ou Git add Fichier: Monter un Dossier/Fichier sur GitHub
   
   __Git commit -m "BLABLABLA"__: Fais un commentaire qui sera publié en même temps que les modifications
   
