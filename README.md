@@ -159,13 +159,13 @@
   
   __systemctl status ssh__: Regarde si le ssh est actif ou non 
   
-  __ssh IP_DE_L'UTILISATEUR__ ou __ssh Nom_D'UTILISATEUR@IP_DE_L'UTILISATEUR__: Se connecte en ssh à une session en route à distance à condition d'avoir le mot de passe
+  __ssh IP____DE____L'UTILISATEUR__ ou __ssh__ __Nom____D'UTILISATEUR@IP____DE____L'UTILISATEUR__: Se connecte en ssh à une session en route à distance à condition d'avoir le mot de passe
   
   __passwd__: Modifie le mot de passe de la session actuelle
   
-  __passwd NOM_D'UTILISATEUR__: Modifie le mot de passe de l'utilisateur local 
+  __passwd__ __NOM____D'UTILISATEUR__: Modifie le mot de passe de l'utilisateur local 
   
-  __man NOM_DE_L'OUTILS__ ou __NOM_DE_L'OUTILS -h__ : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
+  __man__ __NOM____DE____L'OUTILS__ ou __NOM____DE____L'OUTILS__ __-h__ : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
   
   __Ctrl+Z__: Arrête une commande
   
@@ -179,4 +179,8 @@
   
   __usermod -aG GROUPE UTILISATEUR__: Ajoute un utilisateur dans un groupe  
   
-  __# SUIVIS D'UN TEXTE__: Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
+  __while true; do `[COMMANDE]`; done__: Répète la `COMMANDE` en boucle à l'infini extrèmement rapidement **ATTENTION VOTRE TERMINAL PEUT SATURÉ SELON LA COMMANDE**
+  
+  __while true; do `[COMMANDE]`; sleep1; done__: Répète la `COMMANDE` en boucle à l'infini mais sleep permet de dire un nombre de seconde entre chaque lancera, `sleep1 = 1 seconde`
+
+__# SUIVIS D'UN TEXTE__: Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
