@@ -12,3 +12,7 @@ brute-force un dossier zip avec demande de mot de passe
 ## Sommaire
 1. Création d'un fichier qu'on va rangé dans un dossier zip et exigé un mot de passe pour y voir le contenu 
 2. Attaque par Brute force du dossier zip
+
+# 1 CRÉATION D'UN DOSSIER ZIP AVEC MOT DE PASSE + AJOUT D'UN FICHIER DEDANS 
+
+Cet étape est très simple, pour ce faire ouvrez votre terminal et faites ses commandes : 
