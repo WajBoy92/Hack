@@ -45,7 +45,8 @@ zip2john SECRET.zip > hash.txt
 john --wordlists=/usr/share/wordlists/rockyou.txt
  # Lance une attaque par brute-force avec la wordlists rockyou.txt 
 john --show hash.txt
- # Montre le mot de passe trouvé```
+ # Montre le mot de passe trouvé
+```
 Vous pouvez essayer la commande `john hash.txt --incremental`, ça lancera une attaque par brute-force en essayant __absolument toutes__ les combinaisons possibles. Je ne recommendes pas cette approches car l'attaque est __très lente__ si le mot de passe est un minimum long, elle peut même prendre __plusierus jours__ pour un mot de passe __assez simple__ 
 
 ** Vous avez Réussi votre attaque avec JohnTheRipper ** 
