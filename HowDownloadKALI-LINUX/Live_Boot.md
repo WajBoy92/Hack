@@ -67,6 +67,8 @@ Oui à tout
 
 ## Pétites aides pour facilité vos utilisation 
 
-À partir de votre terminal, vous pouvez mettre votre clavier en azerty en entrant ```setxkbmap fr``` 
+À partir de votre terminal, vous pouvez mettre votre clavier en azerty en entrant ```setxkbmap fr```
 
 Si votre session se vérrouille pour inactivité, le mot de passe est `kali`
+
+Si vous avez besoin d'aide supplémentaire, je vous invite à vous renseigner sur internet/ChatGPT/Reddit, et au pire des cas vous pouvez me contactez via mon discord en __bio__

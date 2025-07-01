@@ -12,7 +12,7 @@
   
   __mimikatze__ : Récupère des mots de passe local en clair ou hashé ( **souvent hashé** )
   
-  __JohnTheRipper__ ou __john__ : Casse des hash en BruteForce _[ HowUseJohnTheRipper à venir ]_
+  __JohnTheRipper__ ou __john__ : Casse des hash en BruteForce __[ HowUseJohnTheRipper DISPONIBLE ]__
   
   __crunch__ : Crée des wordlist personnalisable en fonction de nos besoins  
   
