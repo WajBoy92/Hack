@@ -7,9 +7,9 @@ brute-force un dossier zip avec demande de mot de passe
 ## Condtition D'utilisation
 - Avoir une session Kali Linux par n'importe quelle moyen ( Machine Virtuelle | Session Live avec Clé USB | Système d'exploitation entier )
 - Avoir en sa possession le mot de passe hashé, john n'attaque pas les mots de passes sans avoir le hash
-- Avoir une version récente de __John__ ```bash sudo apt update && sudo apt upgrade && sudo apt install john -y ```
-- Avoir l'outil __zip__ ```bash sudo apt install zip -y ```
-- Avoir une __wordlist__ ```bash sudo apt install wordlists ```
+- Avoir une version récente de __John__ `sudo apt update && sudo apt upgrade && sudo apt install john -y`
+- Avoir l'outil __zip__ `sudo apt install zip -y `
+- Avoir une __wordlist__ `sudo apt install wordlists`
 ## Sommaire
 1. Création d'un fichier qu'on va rangé dans un dossier zip et exigé un mot de passe pour y voir le contenu 
 2. Attaque par Brute force du dossier zip
