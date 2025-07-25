@@ -1,39 +1,10 @@
-                                                 Outils de Hacking et Commandes Linux
+# Commandes du terminal Linux (bash)
                                                  
-  ## À FAIRE TOUTE LES SEMAINES
+## À FAIRE TOUTE LES SEMAINES
   sudo apt update && sudo apt upgrade -> Met à jour la liste des paquets puis install les mises à jour 
-  
-  ## OUTILS DE HACKING
-  __hydra__ : BruteForce plusieurs système en ligne grâce à des wordlists _[ HowToUse à venir ]_
-  
-  __nmap__ : Scanne une multitude de choses  
-  
-  __chntpw__ : Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres _[ HowToUse à venir ]_
-  
-  __mimikatze__ : Récupère des mots de passe local en clair ou hashé ( **souvent hashé** )
-  
-  __JohnTheRipper__ ou __john__ : Casse des hash en BruteForce __[ HowToUse DISPONIBLE ]__
-  
-  __crunch__ : Crée des wordlist personnalisable en fonction de nos besoins  
-  
-  __7-zip__ : N'est pas un outils de hacking mais cette applications peut permettre d'envoyer des virus dans des zip sécurisés avec eds mots de passe par exemple sur discord 
-  
-  __wordlists__ ou __rockyou.txt__ : Wordlist par défaut de Kali Linux
-  
-  __exiftool__ : Analyse une image pour y donner les métadonnés
-  
-  __wireshark__ : Puissant pour intercépeter des choses sur un Wi-Fi
-  
-  __zsteg__ : Analyse une image et permet d'y donner les messages cachés  
-  
-  __aircrack-ng__ : Analyse le trafic Wi-Fi, force la déconnexion des appareils, BruteForce le mdp Wi-Fi 
-  
-  __chrootkit__ : Auto-Analyse son pc pour voir s'il y a des logiciel malveillant en cours
-  
-  __nikto__ : Analyse un site, teste automatiquement des dizaines de milliers d'attaque pour nous dire qu'elles sont ses vulnérabilités
 
-  
-  ## NAVIGATION
+ 
+## NAVIGATION
   `cd <dossier>` : Se déplace dans un dossier
   
   `cd ..` : Revient d'un dossier
@@ -48,7 +19,7 @@
   
   `su - <UTILISATEUR>`: Se connecte au terminal d'une autre session disponible sur l'OS en question
   
-  ## CRÉATION
+## CRÉATION
   `mkdir <NomDossier>` : Crée un dossier
 
   `rm <NomFichier>` : Supprime le fichier
@@ -65,7 +36,7 @@
   
   `zip -e` : Crée des dossiers zip avec mot de passe 
 
-  ## ANALYSE
+## ANALYSE
   - `ls` / `ls -l` / `ls -la` : Liste les fichiers (+ détails, + fichiers cachés)
 
   `ls A*` : Liste les éléments qui commencent par "A"
