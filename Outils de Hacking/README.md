@@ -56,12 +56,15 @@ Dans ce fichier, il y aura plusieurs outils de hacking intéressant, ils seront 
   __mdk4__ : Attaques de désauthentification Wi-Fi très puissante, création de faux Wi-Fi brouillant les pistes ( avis subjectif -> c'est mieux que __aireplay-ng__ )
 
 ### Autres
-  __chntpw__ : Modifie le fichier SAM windows pour effacer des mots de passe locals ou autres _[ HowToUse à venir ]_
+  __chntpw__ : Modifie le fichier SAM windows pour effacer des mots de passe local ou autres _[ HowToUse à venir ]_
   
   __mimikatze__ : Récupère des mots de passe local en clair ou hashé ( **souvent hashé** ) 
   
   __7-zip__ : N'est pas un outils de hacking mais cette applications peut permettre d'envoyer des virus dans des zip sécurisés avec mots de passe par exemple sur discord
+  
+  __msfconsole__ : Permet de crée des exploits selon la cible et de les executer 
 
+  __msfvenome__ :
 # 
 Vous pouvez me contacter sur mon discord __en bio__ si vous avez besoin de plus d'explication ou si vous voulez me demander de commencer l'écriture d'un outil de hacking 
 
