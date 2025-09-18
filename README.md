@@ -5,7 +5,7 @@ Il y a __3 dossiers__ dans lequels vous y trouverez différentes notions.
 
 ### Le Dossier " Comment installer Kali Linux " 
 
-Dans ce dossier il y a un fichier `README.md` qui est une sorte de notice qui explique ce qu'on trouves dans ce dossier justement, je vouss invite a le lire pour mieux comprendre si vous ne connaissez pas Kali Linux.
+Dans ce dossier il y a un fichier `README.md` qui est une sorte de notice qui explique ce qu'on trouves dans ce dossier justement, je vous invite à le lire pour mieux comprendre si vous ne connaissez pas Kali Linux.
 
 ### Le dossier " Commandes via le terminal "
 
