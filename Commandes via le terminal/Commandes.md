@@ -1,9 +1,5 @@
 # Commandes du terminal Linux (bash)
-                                                 
-## À FAIRE TOUTE LES SEMAINES
-  sudo apt update && sudo apt upgrade -> Met à jour la liste des paquets puis install les mises à jour 
-
- 
+  
 ## NAVIGATION
   `cd <dossier>` : Se déplace dans un dossier
   
@@ -23,6 +19,8 @@
   `mkdir <NomDossier>` : Crée un dossier
 
   `rm <NomFichier>` : Supprime le fichier
+  
+  `rmdir <NomDossier>`: Supprime un dossier seulement si il est vide 
   
   `rm -r NomDossier` : Supprime un dossier et son contenu 
   
@@ -71,6 +69,7 @@
 
   `wc -l NOM_DU_FICHIER` : Compte le nombre de lignes que contient le fichier 
 
+  `ps aux` : Liste les processus en cours
 
 ## GitHub
   `Git status` : Voir l'état du repo 
@@ -94,7 +93,6 @@
 - `__texte__` : gras
 - `-` : puce
 - `` `code` `` : style code
-
 
 ## AUTRES
   `sudo` : SuperUserDO permet de dire au terminal qu'on a les permission pour effectuer notre commande ( mkdir test: Permission Denied | sudo mkdir test: OK ) 
@@ -134,6 +132,8 @@
   `man NOM_DE_L'OUTILS` ou `NOM_DE_L'OUTILS -h` : Regarde le manuel de la commande pour comprendre ses variables ainsi que son utilité principal ( man -> manuel | -h -> help ) 
 
   `Ctrl+Z` : Arrête une commande
+
+  `Ctrl+D` : Redonne accès à notre prompte
 
   `setxkbmap fr` : Met le clavier en AZERTY
 
