@@ -25,7 +25,7 @@ Ctrl+O
 ENTRÉE
 Ctrl+X
  # Vous venez de crée un fichier nommé test.txt et d'écrire à l'intérieur 
-zip -e SERCRET.zip test.txt
+zip -e SECRET.zip test.txt
  # La commande créera un dossier zip appelé SECRET dans lequel sera rangé le fichier déjà existant test.txt  
 Enter password: azerty
 Confirm password azerty
@@ -42,8 +42,8 @@ Cet étape est aussi très simple, continuez sur un terminal contant vôtre doss
 ```bash
 zip2john SECRET.zip > hash.txt
  # John à crée un fichier nommé hash.txt et y a écrit le hash du mot de passe qui protège le dossier zip 
-john --wordlists=/usr/share/wordlists/rockyou.txt
- # Lance une attaque par brute-force avec la wordlists rockyou.txt 
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+ # Lance une attaque par brute-force du fichier hash.txt avec la wordlists rockyou.txt 
 john --show hash.txt
  # Montre le mot de passe trouvé
 ```
