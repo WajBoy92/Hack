@@ -12,7 +12,7 @@ Une session __Kali Linux__ en Live boot consiste à utilisé Kali Linux depuis u
 ### Points négatifs:
 - Perte de toute l'activité réaliser à chaque extinction de l'ordinateur 
 
-- clavier en qwerty par défaut ( peut être mit en azerty avec la commande `setxkbmap fr` mais doit être fait à chaque nouvelle connexion 
+- Clavier en qwerty par défaut ( peut être mit en azerty avec la commande `setxkbmap fr` mais doit être fait à chaque nouvelle connexion 
 
 - Pas de clé usb -> Pas de Kali Linux en session Live boot 
 

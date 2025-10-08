@@ -34,6 +34,8 @@
   
   `zip -e` : Crée des dossiers zip avec mot de passe 
 
+  `sed s/Bonjour/Hello/d  FichierFrançais.txt > FichierAnglais.txt : Collera le contenu du fichier français mais changera tout les Bonjour en Hello dans un nouveau dossier fichier anglais 
+
 ## ANALYSE
   - `ls` / `ls -l` / `ls -la` : Liste les fichiers (+ détails, + fichiers cachés)
 
@@ -45,8 +47,18 @@
   
   `cat <Fichier>`: Lit le contenu d'un fichier
   
+  `nl <Fichier>`: Lit le contenu d'un fichier en numérotant chaque ligne, il ne numérote pas les lignes vide ( number lines )
+
   `grep <MOT> <Fichier>`: Recherche un mot précis dans un fichier ( Pareil que Ctrl+F )
-  
+ 
+  `head` <Fichier>: Lit les premières lignes d'un fichier
+
+  `head -20 <Fichier>`: Lit le 20 premières lignes d'un fichier
+ 
+  `tail <Fichier>`: Lit les dernières lignes d'un fichier
+
+  `tail -20 <Fichier>`: Lit les 20 dernières lignes d'un fichier
+
   `nano Ctrl+W`: Recherche des éléments dans le fichier comme grep
   
   `find`: Trouve l'emplacement d'un fichier/Dossier sans être directement dans le bon dossier ( find . -name NomDuFichier/Dossier )
