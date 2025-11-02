@@ -12,6 +12,12 @@ Dans ce fichier, il y aura plusieurs outils de hacking intéressant, ils seront 
 - `[How To Use à venir]`: Le fichier expliquant comment utiliser l'outils __arrivera prochainement__ et il est sûrement en cours de rédaction, d'ici maximum 2 semaine il sera disponible dans le dossier __How To Use__ 
 - __Rien d'écrit__ : L'outil __ne sera pas__ dans __How To Use__ avant un bon moment
 
+## Installation 
+
+`apt-cache NOM_DE_L'OUTIL` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire )
+`apt install/remove NOM_DE_L'outil` : Install/Désinstall l'outil de hacking
+`apt-get install/remove NOM_DE_L'OUTIL` : Install/Désinstall l'outil de hacking déjà disponible dans le système local
+`apt-get purge NOM_DE_L'OUTIL` : Supprime l'outil de hacker ET les fichiers de configuration de celui-ci 
 ## OUTILS DE HACKING
 
 ### Brute Force | Wordlists | Création de Wordlist
