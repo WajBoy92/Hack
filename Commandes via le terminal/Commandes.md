@@ -86,6 +86,7 @@
 
   `ps aux` : Liste les processus en cours
 
+  `apt-cache NOM_DE_L'OUTILS` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire ) 
 ## GitHub
   `Git status` : Voir l'état du repo 
 
