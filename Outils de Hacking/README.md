@@ -15,9 +15,8 @@ Dans ce fichier, il y aura plusieurs outils de hacking intéressant, ils seront 
 ## Installation 
 
 `apt-cache NOM_DE_L'OUTIL` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire )
-`apt install/remove NOM_DE_L'outil` : Install/Désinstall l'outil de hacking
-`apt-get install/remove NOM_DE_L'OUTIL` : Install/Désinstall l'outil de hacking déjà disponible dans le système local
-`apt-get purge NOM_DE_L'OUTIL` : Supprime l'outil de hacker ET les fichiers de configuration de celui-ci 
+`apt-get install/remove NOM_DE_L'OUTIL` : Install/Désinstall l'outil de hacking 
+`apt-get purge NOM_DE_L'OUTIL` : Désinstall l'outil de hacker ET les fichiers de configuration de celui-ci 
 ## OUTILS DE HACKING
 
 ### Brute Force | Wordlists | Création de Wordlist
