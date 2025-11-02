@@ -28,6 +28,8 @@
   
   `nano` : Crée un nouveau fichier puis permet d'écrire à l'intérieur, on modifie le nom du fichier en faisant Ctrl+O pour enregistrer le ficher sous.. et on quitte nano en fisant Ctrl+X 
   
+  `l3afpad` : Pareil que nano mais avec un meilleur interface 
+
   `nano NomFichier` : Écrit à l'intérieur d'un fichier déjà existant 
   
   `cp Fichier NouveauNom` : Copie le fichier sous un autre nom  
@@ -36,8 +38,9 @@
 
   `sed s/Bonjour/Hello/d  FichierFrançais.txt > FichierAnglais.txt : Collera le contenu du fichier français mais changera tout les Bonjour en Hello dans un nouveau dossier fichier anglais 
 
+  `ifconfig wlan0 [Nouvelle IP]` : Change son adresse IP 
 ## ANALYSE
-  - `ls` / `ls -l` / `ls -la` : Liste les fichiers (+ détails, + fichiers cachés)
+  `ls` / `ls -l` / `ls -la` : Liste les fichiers (+ détails, + fichiers cachés)
 
   `ls A*` : Liste les éléments qui commencent par "A"
   
