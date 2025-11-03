@@ -84,7 +84,9 @@
 
   `wc -l NOM_DU_FICHIER` : Compte le nombre de lignes que contient le fichier 
 
-  `ps aux` : Liste les processus en cours
+  `ps aux` : Liste les processeurs qui ont étaient lancé dans l'ordre de lancement 
+
+  `top` : Liste les processeurs qui sont actuellement en exécution toutes les 3 secondes en affichant d'abord ceux qui utilise le plus le CPU 
 
   `apt-cache NOM_DE_L'OUTILS` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire ) 
 
