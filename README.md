@@ -7,9 +7,10 @@ Il y a __3 dossiers__ dans lequels vous y trouverez différentes notions.
 
 Dans ce dossier il y a un fichier `README.md` qui est une sorte de notice qui explique ce qu'on trouves dans ce dossier justement, je vous invite à le lire pour mieux comprendre si vous ne connaissez pas Kali Linux.
 
-### Le dossier " Commandes via le terminal "
+### Le dossier " Terminal "
 
-Dans ce dossier il y a le fichier `commandes.md` dans lequel j'y mets toutes les commandes pour pouvoir utiliser au mieux que possible vôtre terminal Kali Linux.
+Dans ce dossier il y a le fichier `CommandesShell.md` dans lequel j'y mets toutes les commandes pour pouvoir utiliser au mieux que possible vôtre terminal Kali Linux.
+Il y a aussi le fichier `CommandesScript.md` dans lequel j'y mets toutes les commandes que je connais qui sont utilisable pour la création de script. Un script sera un fichier avec des commandes pré-rédiger pour par exemple automatiser des tâches trop répétitive du quotidien.
 
 J'y ai mis toutes les commandes de bases et plus le temps passe, plus je rajouterai de nouvelles commandes car je suis moi même en apprentissage donc j'en découvres toujours de nouvelles.
 
