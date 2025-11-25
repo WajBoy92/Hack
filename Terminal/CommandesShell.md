@@ -174,4 +174,6 @@
 
   `while true; do [COMMANDE]; sleep1; done` : Répète la `COMMANDE` en boucle à l'infini mais sleep permet de dire un nombre de seconde entre chaque lancera, `sleep1 = 1 seconde`
 
+  `timeout 10 [PROCESSUS]` : Lance le processus en question mais par contre le tuera dans 10sec ( bon pour stopper une attaque brute force ) 
+
   `# SUIVIS D'UN TEXTE` : Permet de commenter, le texte est visible dans l'écriture d'un script mais il n'est pas prit en compte par le script, utile pour commenter une ligne de cmd 
