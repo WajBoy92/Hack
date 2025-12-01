@@ -1,41 +1,78 @@
-#! /bin/bash : A mettre dans la premiere ligne de code d'un fichier pour le definir comme étant un script bash
+Voici une version corrigée et formatée de votre fichier au format Markdown pour qu'il s'affiche correctement :
 
-echo texte : Affiche texte (= print() en python)
-echo " Une phrase " : Utilisée des guillement simple ou double pour afficher un texte plus ou moins long 
+```markdown
+# Commandes utiles en Bash
 
-x= 5 : Creer la variable x qui a pour texte 5
-x=" Long variable " : Creer la variable x qui contient un texte plus long 
+```bash
+#! /bin/bash  # A mettre dans la première ligne de code d'un fichier pour le définir comme étant un script bash
+```
 
-$x = appelle la variable x 
+### Commandes de base
+- `echo texte` : Affiche le texte (équivalent à `print()` en Python).
+- `echo "Une phrase"` : Utiliser des guillemets simples ou doubles pour afficher un texte plus ou moins long.
 
-read x : L'utilisateur ecrira ce qu'il veut et son résultat sera stocké dans la variable x ( = input en python )
+### Variables
+- `x=5` : Crée une variable `x` avec la valeur `5`.
+- `x="Long texte"` : Crée une variable `x` contenant une chaîne de caractères.
+- `$x` : Appelle la variable `x`.
 
-read -p "Texte : " x : Affiche un texte avant que l'utilisateur écrit une ce qui sera stocké dans la variable x ( Utile pour poser une question et attendre une reponse directement sans passé par un echo avant ) 
-wait : attend que la commande finisse de s'exécuter avant de continuer le script 
+### Lecture d'entrée
+- `read x` : Permet à l'utilisateur de saisir une entrée qui sera stockée dans `x` (équivalent à `input()` en Python).
+- `read -p "Texte : " x` : Affiche un message avant que l'utilisateur entre une réponse, qui sera stockée dans `x`.  
+  *Exemple : Utile pour poser une question à l'utilisateur sans utiliser `echo` avant.*
 
-timeout 60 [Commande] : Tue la commande sous 60 secondes si elle n'est paz fini 
+### Contrôle des commandes
+- `wait` : Attend que la commande en cours d'exécution se termine avant de continuer le script.
+- `timeout 60 [Commande]` : Interrompt la commande si elle dépasse 60 secondes.
 
-while true ; do : Creer une boucle qui exécutera infiniment du code
+### Boucles
+- `while true; do` : Crée une boucle infinie.  
+    - Utilisez `break` pour quitter la boucle.
 
-break : Quitte une boucle 
+### Gestion des erreurs
+- `[Commande] 2>/dev/null` : Exécute une commande sans afficher les erreurs dans le terminal (redirection vers un "trou noir").
 
-[Commande] 2>/dev/null : Realise la commande dans un "trou noir", pour pas pollué le terminal de l'itilisateur 
+### Conditions `if`
+- `if [Condition]; then` : Exécute du code si la condition est vraie.
+    - Peut contenir un `else`, mais n'oubliez pas de terminer par `fi`.
+    - Exemple :
+      ```bash
+      if [ $x -eq 1 ]; then
+          echo "x vaut 1"
+      else
+          echo "x ne vaut pas 1"
+      fi
+      ```
 
-if [Condition]; then : execute du code si la condition est vrai, peut contenir un else dans la meme colonne du if, ne pas oublier de mettre une indentation pour le code et obligatoirement finir un boucle if avec un fi 
+### Délai
+- `sleep 60` : Met le script en pause pendant 60 secondes.
 
-sleep 60 : attend 60 secondes avant d'exécuter le reste du script 
+---
 
-## Structure de la commande case 
-read x
-case "$x" in 
-    [1] )
-        Code
-    [2] )
-        Code
-    *) (si tout etait faux, comme un else ) 
-        Code
-si x contient 1 alors le premier bloc s'excecutera, si il contient 2 le 2e s'excecutera, si il ne contient aucun d'entre eux alors le bloc *) s'excecutera 
-C'est comme des if mais avec des vérifications plus precise 
-##
+## Structure de la commande `case`
 
+- Exemple :
+    ```bash
+    read x
+    case "$x" in
+        [1] )
+            # Code à exécuter si x vaut 1
+            ;;
+        [2] )
+            # Code à exécuter si x vaut 2
+            ;;
+        *)
+            # Code par défaut (équivalent à else)
+            ;;
+    esac
+    ```
 
+- Explication : 
+  - Si `x` contient `1`, alors le premier bloc s'exécutera.
+  - Si `x` contient `2`, le second bloc s'exécutera.
+  - Si aucune condition n'est remplie, le bloc `*` s'exécutera.
+  - Les structures `case` permettent des vérifications plus précises que des conditions `if`.
+
+---
+
+Copiez/collez cette version corrigée et formatée directement dans le fichier Markdown pour qu'il s'affiche correctement sur GitHub. 😊
