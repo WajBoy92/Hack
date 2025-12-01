@@ -25,7 +25,7 @@ if [Condition]; then : execute du code si la condition est vrai, peut contenir u
 
 sleep 60 : attend 60 secondes avant d'exécuter le reste du script 
 
-##Stucture de la commande case 
+## Structure de la commande case 
 read x
 case "$x" in 
     [1] )
