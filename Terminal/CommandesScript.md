@@ -1,5 +1,3 @@
-
-
 #! /bin/bash : A mettre dans la premiere ligne de code d'un fichier pour le definir comme étant un script bash
 
 echo texte : Affiche texte (= print() en python)
