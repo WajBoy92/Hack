@@ -1,7 +1,5 @@
-Voici une version corrigée et formatée de votre fichier au format Markdown pour qu'il s'affiche correctement :
-
-```markdown
 # Commandes utiles en Bash
+```markdown
 
 ```bash
 #! /bin/bash  # A mettre dans la première ligne de code d'un fichier pour le définir comme étant un script bash
@@ -74,5 +72,3 @@ Voici une version corrigée et formatée de votre fichier au format Markdown pou
   - Les structures `case` permettent des vérifications plus précises que des conditions `if`.
 
 ---
-
-Copiez/collez cette version corrigée et formatée directement dans le fichier Markdown pour qu'il s'affiche correctement sur GitHub. 😊
