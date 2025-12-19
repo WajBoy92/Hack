@@ -88,7 +88,7 @@
 
   `top` : Liste les processeurs qui sont actuellement en exécution toutes les 3 secondes en affichant d'abord ceux qui utilise le plus le CPU 
 
-  `apt-cache NOM_DE_L'OUTILS` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire ) 
+  `apt-cache search NOM_DE_L'OUTILS` : Affiche si l'outils est installable avec apt install et affiche son utilité ( affiche aussi les outils ayant un nom similaire ) 
 
   `synaptic` : Gestion de mise a jour, vérifié si un logiciel a besoin de MÀJ ou non etc 
 
