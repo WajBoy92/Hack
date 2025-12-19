@@ -69,6 +69,8 @@ Dans ce fichier, il y aura plusieurs outils de hacking intéressant, ils seront 
   
   __msfconsole__ : Permet de crée des exploits selon la cible et de les executer 
 
+  __wigle.net__ : Site pour faire de l'OSINT à partir d'information wifi ( BSSID ), ou Bluetooth
+
   __msfvenome__ :
 # 
 Vous pouvez me contacter sur mon discord __en bio__ si vous avez besoin de plus d'explication ou si vous voulez me demander de commencer l'écriture d'un outil de hacking 
